@@ -1,17 +1,30 @@
 body {
-    margin-left: 50px;
-    margin-top: 80px;
-    background: #1F2937;
+    background: #1C1C1C;
+    display: flex;
+    justify-content: space-around;
+    margin: 65px
+}
+
+#div-1 {
+    width: 490px;
+    height: 395px;
+    padding-left: 60px;
+    padding-top: 50px;
+    background-color: #1F2937;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #D5D4D8
 }
 
 #main {
   font-family: 'Karla', sans-serif;
   color: white;
+  text-shadow: 2px 2px 5px #10B981;
   margin-bottom: 0px;
 }
 
 #span {
-    color: #4ADF86
+    color: #4ADF86;
+    text-shadow: 0px 0px;
 }
 
 p {
@@ -49,6 +62,7 @@ hr {
     background: #273549;
     border: none;
     border-radius: 4px;
+    box-shadow: 0 0 5px inset #4ADF86;
     height: 38px;
     width: 210px;
     margin-top: 35px;
